@@ -1,4 +1,4 @@
-# 大三项目
+# 密书·密码管理工具
 
 > 大三上学期项目的代码及关于它的文档、讨论等。
 
@@ -6,6 +6,6 @@
 
 当前阶段，请大佬们积极参与到[项目的讨论](https://code.aliyun.com/yqmailsend/rfkhx/issues)中。全靠你们了。
 
-在[里程碑](https://code.aliyun.com/yqmailsend/rfkhx/milestones)有我们这个项目的不同阶段的信息，有些讨论比较紧迫需要尽早完成，你可以将“里程碑”理解为`deadline`。
+所有有关项目的知识性成果，应该被整理到项目的[Wikis](https://code.aliyun.com/yqmailsend/rfkhx/wikis/home)中。
 
 阿里云的这个平台是利用CodeLab搭建的，很多地方翻译不是非常准确，一起摸索吧。
