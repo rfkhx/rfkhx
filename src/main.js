@@ -1,3 +1,5 @@
+'use strict';
+
 const {app,BrowserWindow}=require('electron');
 const path=require('path');
 const url=require('url');
@@ -11,7 +13,7 @@ const createWindow=()=>{
     });
 
     const URL=url.format({
-        pathname:path.join(__dirname,'index.html'),
+        pathname:path.join(__dirname,'renderer/index.html'),
         protocol:'file:',
         slashes:true
     });
