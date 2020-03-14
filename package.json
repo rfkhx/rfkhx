@@ -1,0 +1,22 @@
+{
+  "name": "rfkhx",
+  "version": "1.0.0",
+  "description": "> 大三上学期项目的代码及关于它的文档、讨论等。",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.aliyun.com:yqmailsend/rfkhx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.1.1"
+  }
+}
