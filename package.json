@@ -1,13 +1,14 @@
 {
   "name": "rfkhx",
   "version": "1.0.0",
-  "description": "> 大三上学期项目的代码及关于它的文档、讨论等。",
-  "main": "main.js",
-  "directories": {
-    "doc": "doc"
-  },
+  "description": "密书，一款跨平台密码管理工具。",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:linux": "node_modules/.bin/electron-builder -l",
+    "build:windows": "node_modules/.bin/electron-builder -w",
+    "build:mac": "node_modules/.bin/electron-builder -m"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
+  },
+  "devDependencies": {
+    "electron-builder": "^22.4.1",
     "electron": "^8.1.1"
   }
 }
